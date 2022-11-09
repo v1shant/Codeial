@@ -1,3 +1,6 @@
 module.exports.home = (req, res) => {
-    res.end('<h1>Express is up for Codeial!</h1>');
+    console.log(req.cookies);
+    res.render('home', {
+        title: "Home"
+    });
 };
