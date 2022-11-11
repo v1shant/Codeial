@@ -50,11 +50,12 @@ module.exports.create = (req, res) => {
 
 //sign in and create session for user
 module.exports.createSession = (req, res) => {
-    res.redirect('/');
+    return res.redirect('/');
 };
 
 module.exports.destroySession = function (req, res) {
-    req.logout();
-
-    return res.redirect('/');
+    req.logout(function (err) {
+        if (err) { return next(err); }
+        return res.redirect('/');
+    });
 };
