@@ -1,15 +1,19 @@
 #home-container{
     display: flex;
-    
+    height: 100%;
+    padding-bottom: 250px;
     #feed-posts{
         width: 70%;
         padding: 10px;
     }
-
+    #posts-list-container{
+        padding-bottom: 100px;
+    }
+    
     #user-friends{
         width: 30%;
+        height: 100%;
         padding: 10px;
         border-left: 1px solid lightgrey;
-        // height: 100%;
     }
 }
