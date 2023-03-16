@@ -14,6 +14,16 @@ const userSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true
+    },
+    accessToken:
+    {
+        type: String,
+        default: 'abc'
+    },
+    isTokenValid:
+    {
+        type: Boolean,
+        default: false
     }
 }, {
     timestamps: true

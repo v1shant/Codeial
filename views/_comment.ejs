@@ -1,15 +1,25 @@
 <li id="comment-<%= comment._id %>">
     <p>
         <% if (locals.user && locals.user.id == comment.user.id){ %>
-        
         <small>
             <a class="delete-comment-button" href="/comments/destroy/<%= comment.id %>">X</a>
         </small>
         <% } %>
         <%= comment.content %>
+        <small>
+            <% if (locals.user){ %>
+                <small>
+                    <a id="like-button" class="toggle-like-button" data-likes="<%= post.likes.length %>" href="/likes/toggle/?id=<%=post._id%>&type=Post"><%= post.likes.length %> <i class="fa fa-thumbs-up">like</i></a>
+                </small>
+            <% } else { %>
+                <small id="like-button2">
+                    <%=post.likes.length %> Likes
+                </small>
+            <% } %>
+        </small>
         <br>
         <small>
-            <%= comment.user.name %>
+            - <%= comment.user.name %>
         </small>
     </p>    
 

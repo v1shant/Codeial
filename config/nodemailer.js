@@ -7,11 +7,11 @@ let transporter = nodemailer.createTransport({
     port: 465,
     secure: true,
     auth: {
-        user: '************',
-        pass: '************'
+        user: 'bothravishant95',
+        pass: 'mhgvdzrbtxprikzr'
     }
 });
-
+ 
 let renderTemplate = (data, relativePath) => {
     let mailHTML;
     ejs.renderFile(
