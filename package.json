@@ -30,6 +30,8 @@
     "passport-google-oauth2": "^0.2.0",
     "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
-    "redis": "^4.6.5"
+    "redis": "^4.6.5",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
   }
 }

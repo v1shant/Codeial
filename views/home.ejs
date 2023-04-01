@@ -4,41 +4,89 @@
     <section id="feed-posts">
         <h4>Posts</h4>
         <% if(locals.user){ %>
-        <form action="/posts/create" id="new-post-form" method="POST">
-            <textarea name="content" cols="30" rows="3" placeholder="Type Here..." required></textarea>
-            <input type="submit" value="Post">
-        </form>
-        <% } %>
-    
-        <div id="posts-list-container">
-            <ul>
-                <% for(post of posts){ %>
-                    
-                <%- include('_post') -%>
-                    
-                <%} %>
-            </ul>
-        </div>
+            <form action="/posts/create" id="new-post-form" method="POST">
+                <textarea name="content" cols="30" rows="3" placeholder="Type Here..." required></textarea>
+                <input type="submit" value="Post">
+            </form>
+            <% } %>
+
+                <div id="posts-list-container">
+                    <ul>
+                        <% for(post of posts){ %>
+
+                            <%- include('_post') -%>
+
+                                <%} %>
+                    </ul>
+                </div>
     </section>
-        
-        
-    <section id="user-friends">
-        <h4>Friends</h4>
-        <% for(u of all_users){%>
-            <p>
-                <a href="/users/profile/<%= u.id %>"><%= u.name %></a>
-            </p>
+
+
+<section id="user-friends">
+<div>
+<% if(user) { %>
+<div class="friends-list">
+<h4>My Friends</h4>
+<% if(locals.user.friends.length==0) {%>
+    <div class="no-friends">No friends found!</div>
+<% }else{ %>
+    <% for(friends of user.friends){ %>
+        <% if(friends.from_user.id==locals.user.id) {%>
+            <div>
+                <a class="friends-item" href="/users/profile/<%=friends.to_user._id%>">
+                <div class="friends-name">
+                    <%= friends.to_user.name %>
+                </div>
+                <br>
+                </a>
+            </div>
+    <%}%>
+
+        <% if(friends.to_user.id==locals.user.id) {%>
+            <div>
+                <a class="friends-item"
+                    href="/users/profile/<%=friends.from_user._id%>">
+                    <div class="friends-name">
+                        <%= friends.from_user.name %>
+                    </div>
+                    <br>
+                </a>
+            </div>
+            <% } %>
         <% } %>
-    </section>
+    <% } %>
+
+</div>
+<% } %>
+
+<div>
+<h4>All Users</h4>
+    <% for(u of all_users){%>
+<p>
+<a href="/users/profile/<%= u.id %>">
+    <%= u.name %>
+</a>
+</p>
+<% } %>
+</div>
+    <%- include('_chat_box') -%>
+</section>
 </div>
 
 <!-- importing this script for creating the comments -->
-<script src="/js/home_post_comments.js" ></script>
+<script src="/js/home_post_comments.js"></script>
 <script src="/js/home_posts.js"></script>
 <script src="/js/toggle_likes.js"></script>
 <script>
-    $('.toggle-like-button').each(function(){
+    $('.toggle-like-button').each(function () {
         let self = this;
         let toggleLike = new ToggleLike(self);
     });
 </script>
+<script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+<script src="/js/chat_engine.js"></script>
+<% if(locals.user){ %>
+    <script>
+        new ChatEngine('user-chat-box', '<%= locals.user.email%>')
+    </script>
+<% } %>

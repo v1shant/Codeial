@@ -9,7 +9,7 @@
         <small>
             <% if (locals.user){ %>
                 <small>
-                    <a id="like-button" class="toggle-like-button" data-likes="<%= post.likes.length %>" href="/likes/toggle/?id=<%=post._id%>&type=Post"><%= post.likes.length %> <i class="fa fa-thumbs-up">like</i></a>
+                    <a id="like-button" class="toggle-like-button" data-likes="<%= post.likes.length %>" href="/likes/toggle/?id=<%=post._id%>&type=Post"><i class="fa fa-thumbs-up"><%= post.likes.length %> Likes</i></a>
                 </small>
             <% } else { %>
                 <small id="like-button2">
