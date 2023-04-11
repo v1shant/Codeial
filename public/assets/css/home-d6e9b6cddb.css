@@ -1,0 +1,19 @@
+#home-container {
+  display: flex;
+  height: 100%;
+  padding-bottom: 250px; }
+  #home-container #feed-posts {
+    width: 70%;
+    padding: 10px; }
+  #home-container #posts-list-container {
+    padding-bottom: 100px; }
+  #home-container #like-button {
+    padding-left: 10px;
+    text-decoration: none; }
+  #home-container #like-button2 {
+    padding-left: 10px; }
+  #home-container #user-friends {
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    border-left: 1px solid lightgrey; }

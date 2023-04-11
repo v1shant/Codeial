@@ -3,10 +3,11 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 
 const User = require('../models/user');
+const env = require('./environment');
 
 
 // authentication using passport
-passport.use(new LocalStrategy({ 
+passport.use(new LocalStrategy({
     usernameField: 'email',
     passReqToCallback: true
 },
