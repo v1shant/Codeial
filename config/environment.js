@@ -33,7 +33,8 @@ const development = {
     morgan: {
         mode: 'dev',
         options: { stream: accessLogStream }
-    }
+    },
+    mongodb_url: process.env.mongodb_url
 };
 
 const production = {
@@ -58,7 +59,8 @@ const production = {
     morgan: {
         mode: 'combined',
         options: { stream: accessLogStream }
-    }
+    },
+    mongodb_url: process.env.mongodb_url
 };
 
 module.exports = eval(process.env.NODE_ENV) == undefined ? development : eval(process.env.NODE_ENV);

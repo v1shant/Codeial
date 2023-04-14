@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const env=require('./environment')
-mongoose.connect(`mongodb://localhost/${env.db}`);
+mongoose.connect(`mongodb+srv://${env.mongodb_url}`); 
 
 const db = mongoose.connection;
 

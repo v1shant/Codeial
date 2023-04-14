@@ -797,3 +797,43 @@
 ::1 - - [12/Apr/2023:09:57:25 +0000] "GET / HTTP/1.1" 200 9104 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
 ::1 - - [12/Apr/2023:09:57:25 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
 ::1 - - [12/Apr/2023:09:57:26 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+[0mGET / [32m200[0m 199.943 ms - 12673[0m
+[0mGET /favicon.ico [33m404[0m 12.889 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 4.361 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 4.111 ms - 150[0m
+[0mGET /users/sign-in [32m200[0m 22.188 ms - 2083[0m
+[0mGET /favicon.ico [33m404[0m 8.260 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 4.938 ms - 150[0m
+[0mPOST /users/create-session [36m302[0m 17.522 ms - 46[0m
+[0mGET / [32m200[0m 84.335 ms - 22883[0m
+[0mGET /favicon.ico [33m404[0m 10.732 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 16.634 ms - 150[0m
+[0mPOST /comments/create [36m302[0m 62.876 ms - 46[0m
+[0mGET / [32m200[0m 132.737 ms - 23558[0m
+[0mGET /favicon.ico [33m404[0m 15.457 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 11.402 ms - 150[0m
+[0mGET / [32m200[0m 96.924 ms - 23226[0m
+[0mGET /favicon.ico [33m404[0m 13.230 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 4.321 ms - 150[0m
+[0mGET /users/sign-out [36m302[0m 12.649 ms - 46[0m
+[0mGET / [32m200[0m 45.674 ms - 13404[0m
+[0mGET /favicon.ico [33m404[0m 2.300 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 2.266 ms - 150[0m
+[0mGET / [32m200[0m 48.241 ms - 13070[0m
+[0mGET /favicon.ico [33m404[0m 4.603 ms - 150[0m
+[0mGET / [36m304[0m 38.420 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 3.407 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 1.919 ms - 150[0m
+[0mGET / [36m304[0m 43.700 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 7.834 ms - 150[0m
+[0mGET / [36m304[0m 39.432 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 3.319 ms - 150[0m
+[0mGET / [36m304[0m 42.609 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 2.492 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 1.669 ms - 150[0m
+[0mGET / [32m200[0m 203.056 ms - 2830[0m
+[0mGET /favicon.ico [33m404[0m 63.393 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 59.126 ms - 150[0m
+[0mGET / [36m304[0m 184.657 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 60.437 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 52.282 ms - 150[0m
