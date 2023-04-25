@@ -591,3 +591,19 @@
 [0mGET / [32m200[0m 339.150 ms - 7146[0m
 [0mGET /favicon.ico [33m404[0m 101.855 ms - 150[0m
 [0mGET /favicon.ico [33m404[0m 99.945 ms - 150[0m
+[0mGET / [32m200[0m 399.265 ms - 6783[0m
+[0mGET /favicon.ico [33m404[0m 104.315 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 99.903 ms - 150[0m
+[0mGET /users/profile/6447703754db746923b36fbe [32m200[0m 315.587 ms - 2436[0m
+[0mGET /favicon.ico [33m404[0m 100.703 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 101.847 ms - 150[0m
+::1 - - [25/Apr/2023:09:43:17 +0000] "GET / HTTP/1.1" 200 4580 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:09:43:17 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:09:43:18 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:09:43:19 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:09:43:19 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:09:43:20 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:09:43:25 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:09:43:25 +0000] "GET / HTTP/1.1" 200 7147 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:09:43:25 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:09:43:26 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
