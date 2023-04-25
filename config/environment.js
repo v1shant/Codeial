@@ -27,7 +27,7 @@ const development = {
         secure: true,
         auth: {
             user: process.env.Codeial_gmail_username,
-            pass: 'lqbvupueukkwmdyi'
+            pass: process.env.Codeial_gmail_password
         }
     },
     morgan: {
