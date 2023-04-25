@@ -26,7 +26,7 @@ const development = {
         port: 465,
         secure: true,
         auth: {
-            user: 'bothravishant95',
+            user: process.env.Codeial_gmail_username,
             pass: 'lqbvupueukkwmdyi'
         }
     },

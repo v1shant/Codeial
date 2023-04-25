@@ -203,3 +203,391 @@
 ::1 - - [25/Apr/2023:08:12:53 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
 ::1 - - [25/Apr/2023:08:12:53 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
 ::1 - - [25/Apr/2023:08:12:54 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+[0mGET / [36m304[0m 120.053 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 57.059 ms - 150[0m
+[0mGET / [36m304[0m 151.720 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 50.940 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 48.035 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 57.721 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 47.799 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 47.284 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 49.226 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 364.474 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 57.434 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 55.896 ms - -[0m
+[0mGET /users/css/footer.css [33m404[0m 48.069 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 51.427 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 53.549 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 47.653 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 47.960 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 47.532 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 53.010 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 59.081 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 47.371 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 50.672 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 48.483 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 51.214 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 54.465 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 47.525 ms - 150[0m
+[0mGET / [36m304[0m 145.215 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 52.424 ms - 150[0m
+[0mGET / [36m304[0m 147.924 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 49.442 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 46.645 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 47.820 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 47.312 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 49.224 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 51.808 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 49.650 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 48.446 ms - 150[0m
+[0mPOST /users/create-session [36m302[0m 202.741 ms - 46[0m
+[0mGET / [32m200[0m 269.125 ms - 4401[0m
+[0mGET /favicon.ico [33m404[0m 109.193 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 107.402 ms - 150[0m
+[0mGET /users/sign-out [36m302[0m 216.576 ms - 46[0m
+[0mGET / [32m200[0m 142.452 ms - 2900[0m
+[0mGET /favicon.ico [33m404[0m 47.359 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 47.522 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 48.863 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 48.676 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 50.334 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 52.723 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 54.146 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 47.859 ms - 150[0m
+[0mGET /users/sign-up [32m200[0m 48.075 ms - 2171[0m
+[0mGET /users/css/header.css [33m404[0m 58.929 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 59.738 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 68.257 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 55.253 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 48.356 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 48.555 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 48.908 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 51.121 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 54.384 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 49.181 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 48.151 ms - 150[0m
+[0mPOST /users/create-session [36m302[0m 194.849 ms - 46[0m
+[0mGET / [32m200[0m 264.838 ms - 4401[0m
+[0mGET /favicon.ico [33m404[0m 107.053 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 106.915 ms - 150[0m
+[0mGET /users/profile/6447703754db746923b36fbe [32m200[0m 319.949 ms - 2344[0m
+[0mGET /users/profile/css/footer.css [33m404[0m 96.654 ms - 167[0m
+[0mGET /users/profile/css/layout.css [33m404[0m 99.705 ms - 167[0m
+[0mGET /users/profile/css/header.css [33m404[0m 103.145 ms - 167[0m
+[0mGET /users/profile/css/user_profile.css [33m404[0m 869.427 ms - 173[0m
+[0mGET /favicon.ico [33m404[0m 102.165 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 97.761 ms - 150[0m
+[0mGET /users/profile/6447703754db746923b36fbe [36m304[0m 299.017 ms - -[0m
+[0mGET /users/profile/css/header.css [33m404[0m 92.851 ms - 167[0m
+[0mGET /users/profile/css/layout.css [33m404[0m 105.250 ms - 167[0m
+[0mGET /users/profile/css/user_profile.css [33m404[0m 100.885 ms - 173[0m
+[0mGET /users/profile/css/footer.css [33m404[0m 103.323 ms - 167[0m
+[0mGET /favicon.ico [33m404[0m 116.623 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 106.603 ms - 150[0m
+[0mGET /users/sign-out [36m302[0m 221.889 ms - 46[0m
+[0mGET / [32m200[0m 154.627 ms - 3234[0m
+[0mGET /favicon.ico [33m404[0m 49.086 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 51.018 ms - 150[0m
+[0mGET /users/profile/6447703754db746923b36fbe [36m302[0m 49.577 ms - 72[0m
+[0mGET /users/sign-in [36m304[0m 53.611 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 53.962 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 48.951 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 52.521 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 46.035 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 48.294 ms - 150[0m
+::1 - - [25/Apr/2023:08:24:32 +0000] "GET / HTTP/1.1" 200 2900 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:33 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:33 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:33 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:34 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:34 +0000] "GET /users/css/layout.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:34 +0000] "GET /users/css/header.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:34 +0000] "GET /users/css/footer.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:35 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:35 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:36 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:37 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:37 +0000] "GET /users/css/layout.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:37 +0000] "GET /users/css/header.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:37 +0000] "GET /users/css/footer.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:38 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:39 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:41 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:41 +0000] "GET / HTTP/1.1" 200 4401 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:42 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:43 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:53 +0000] "POST /posts/create HTTP/1.1" 200 261 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:55 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 56 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:56 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 55 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:57 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 56 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:58 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 55 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:24:59 +0000] "POST /comments/create HTTP/1.1" 200 309 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:25:01 +0000] "GET /likes/toggle/?id=64478e5b8a752dbf7bdc3a84&type=Post HTTP/1.1" 404 152 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:25:01 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/likes/toggle/?id=64478e5b8a752dbf7bdc3a84&type=Post" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:25:02 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/likes/toggle/?id=64478e5b8a752dbf7bdc3a84&type=Post" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:25:04 +0000] "GET /likes/toggle/?id=64478e5b8a752dbf7bdc3a84&type=Post HTTP/1.1" 404 152 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:25:04 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/likes/toggle/?id=64478e5b8a752dbf7bdc3a84&type=Post" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:25:06 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 56 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:25:07 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 55 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:25:08 +0000] "GET /likes/toggle/?id=64478e5b8a752dbf7bdc3a84&type=Post HTTP/1.1" 404 152 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:25:08 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/likes/toggle/?id=64478e5b8a752dbf7bdc3a84&type=Post" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+[0mGET / [32m200[0m 227.518 ms - 3894[0m
+[0mGET /favicon.ico [33m404[0m 50.949 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 47.560 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 51.294 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 48.236 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 51.728 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 54.043 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 313.375 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 47.655 ms - 150[0m
+[0mPOST /users/create-session [36m302[0m 194.442 ms - 46[0m
+[0mGET / [32m200[0m 363.100 ms - 6297[0m
+[0mGET /favicon.ico [33m404[0m 95.405 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 98.016 ms - 150[0m
+[0mPOST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post [32m200[0m 244.076 ms - 56[0m
+[0mPOST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post [32m200[0m 265.190 ms - 55[0m
+[0mPOST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post [32m200[0m 257.835 ms - 56[0m
+[0mPOST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post [32m200[0m 274.057 ms - 55[0m
+[0mGET / [32m200[0m 365.517 ms - 5961[0m
+[0mGET /favicon.ico [33m404[0m 106.151 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 99.979 ms - 150[0m
+[0mPOST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post [32m200[0m 260.125 ms - 56[0m
+[0mPOST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post [32m200[0m 258.484 ms - 55[0m
+[0mPOST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post [32m200[0m 270.404 ms - 56[0m
+[0mPOST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post [32m200[0m 258.845 ms - 55[0m
+[0mPOST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post [32m200[0m 259.260 ms - 56[0m
+[0mGET / [32m200[0m 365.606 ms - 5961[0m
+[0mGET /favicon.ico [33m404[0m 101.117 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 102.050 ms - 150[0m
+[0mPOST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post [32m200[0m 253.506 ms - 55[0m
+[0mPOST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post [32m200[0m 259.986 ms - 56[0m
+[0mGET / [36m304[0m 361.038 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 102.363 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 106.129 ms - 150[0m
+[0mGET /users/sign-out [36m302[0m 219.791 ms - 46[0m
+[0mGET / [32m200[0m 262.875 ms - 4228[0m
+[0mGET /favicon.ico [33m404[0m 51.382 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 51.613 ms - 150[0m
+::1 - - [25/Apr/2023:08:28:46 +0000] "GET / HTTP/1.1" 200 3894 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:46 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:47 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:47 +0000] "GET /favicon.ico HTTP/1.1" - - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:47 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:48 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:48 +0000] "GET /users/css/layout.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:48 +0000] "GET /users/css/header.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:48 +0000] "GET /users/css/footer.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:48 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:49 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:51 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:52 +0000] "GET / HTTP/1.1" 200 6297 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:52 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:53 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:53 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 55 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:54 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 56 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:55 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 55 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:56 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 56 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:56 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 55 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:57 +0000] "GET / HTTP/1.1" 200 5961 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:58 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:58 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:59 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:28:59 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 56 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:00 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:00 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 55 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:02 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 56 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:04 +0000] "GET / HTTP/1.1" 200 5961 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:04 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:05 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:05 +0000] "POST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post HTTP/1.1" 200 55 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:13 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:13 +0000] "GET / HTTP/1.1" 200 4228 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:13 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:14 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:14 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:14 +0000] "GET /users/css/footer.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:14 +0000] "GET /users/css/header.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:14 +0000] "GET /users/css/layout.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:14 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:29:15 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:50:51 +0000] "GET /users/reset-password HTTP/1.1" 200 1920 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:50:51 +0000] "GET /users/css/layout.css HTTP/1.1" 404 159 "http://localhost:8000/users/reset-password" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:50:51 +0000] "GET /users/css/header.css HTTP/1.1" 404 159 "http://localhost:8000/users/reset-password" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:50:51 +0000] "GET /users/css/footer.css HTTP/1.1" 404 159 "http://localhost:8000/users/reset-password" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:50:51 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/reset-password" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:50:52 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/reset-password" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:50:55 +0000] "GET / HTTP/1.1" 200 3894 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:50:55 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:50:56 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:51:35 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:51:35 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:51:35 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:51:36 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:51:39 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:51:39 +0000] "GET /users/css/layout.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:51:39 +0000] "GET /users/css/header.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:51:39 +0000] "GET /users/css/footer.css HTTP/1.1" 404 159 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:51:40 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::1 - - [25/Apr/2023:08:51:41 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+[0mGET /users/sign-in [36m304[0m 16.425 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 54.645 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 57.963 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 52.823 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 314.158 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 49.544 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 45.532 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 52.100 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 55.501 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 48.782 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 49.453 ms - 150[0m
+[0mGET / [36m304[0m 298.587 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 50.273 ms - 150[0m
+[0mGET / [36m304[0m 266.556 ms - -[0m
+[0mGET /favicon.ico [0m-[0m - ms - -[0m
+[0mGET /favicon.ico [33m404[0m 49.689 ms - 150[0m
+[0mGET / [36m304[0m 251.754 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 50.590 ms - 150[0m
+[0mGET / [36m304[0m 252.186 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 65.200 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 48.973 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 52.528 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 49.233 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 47.246 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 50.382 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 50.043 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 45.349 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 69.305 ms - -[0m
+[0mGET /users/css/header.css [33m404[0m 57.749 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 59.400 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 67.806 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 335.690 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 52.114 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 51.689 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 49.616 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 56.768 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 48.665 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 48.170 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 60.650 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 49.917 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 57.749 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 57.223 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 322.205 ms - 150[0m
+[0mGET /users/sign-up [36m304[0m 51.350 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 50.432 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 46.670 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 47.038 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 48.628 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 49.294 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 50.024 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 47.703 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 48.632 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 59.865 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 45.844 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 44.302 ms - 150[0m
+[0mGET / [36m304[0m 256.358 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 48.829 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 48.584 ms - 150[0m
+[0mGET / [32m200[0m 240.919 ms - 4300[0m
+[0mGET /favicon.ico [33m404[0m 46.261 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 44.426 ms - 150[0m
+[0mGET /users/sign-in [32m200[0m 49.336 ms - 2168[0m
+[0mGET /users/css/layout.css [33m404[0m 49.822 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 49.818 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 50.039 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 51.051 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 45.638 ms - 150[0m
+[0mGET / [36m304[0m 233.947 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 47.389 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 46.749 ms - 150[0m
+[0mGET / [36m304[0m 271.239 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 59.145 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 46.348 ms - 150[0m
+[0mGET / [36m304[0m 248.909 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 51.192 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 52.856 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 51.334 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 50.181 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 53.452 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 311.527 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 46.676 ms - 150[0m
+[0mGET / [36m304[0m 251.206 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 49.473 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 50.240 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 52.766 ms - -[0m
+[0mGET /users/css/header.css [33m404[0m 45.985 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 51.868 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 51.094 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 48.206 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 45.534 ms - 150[0m
+[0mPOST /users/create-session [36m302[0m 196.492 ms - 46[0m
+[0mGET / [32m200[0m 338.507 ms - 6867[0m
+[0mGET /favicon.ico [33m404[0m 94.421 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 91.166 ms - 150[0m
+[0mGET /users/profile/6447703754db746923b36fbe [32m200[0m 289.241 ms - 2432[0m
+[0mGET /users/profile/css/footer.css [33m404[0m 91.834 ms - 167[0m
+[0mGET /users/profile/css/layout.css [33m404[0m 103.798 ms - 167[0m
+[0mGET /users/profile/css/header.css [33m404[0m 108.174 ms - 167[0m
+[0mGET /users/profile/css/user_profile.css [33m404[0m 857.928 ms - 173[0m
+[0mGET /favicon.ico [33m404[0m 100.361 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 103.343 ms - 150[0m
+[0mGET /users/profile/6447703754db746923b36fbe [36m304[0m 303.507 ms - -[0m
+[0mGET /users/profile/css/layout.css [33m404[0m 100.422 ms - 167[0m
+[0mGET /users/profile/css/header.css [33m404[0m 97.860 ms - 167[0m
+[0mGET /users/profile/css/user_profile.css [33m404[0m 105.263 ms - 173[0m
+[0mGET /users/profile/css/footer.css [33m404[0m 110.095 ms - 167[0m
+[0mGET /favicon.ico [33m404[0m 97.344 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 94.260 ms - 150[0m
+[0mGET /users/sign-out [36m302[0m 196.230 ms - 46[0m
+[0mGET / [32m200[0m 240.011 ms - 4662[0m
+[0mGET /favicon.ico [33m404[0m 47.818 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 46.356 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 46.262 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 46.637 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 45.612 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 49.279 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 47.294 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 47.941 ms - 150[0m
+[0mGET /users/auth/google [36m302[0m 48.995 ms - 0[0m
+[0mGET /users/auth/google/callback?code=4%2F0AVHEtk6VTGREa0pn1HzJli6-RP87hFsD2VhWNxZl6W-pz7BeaR-f_6bDCqeifJnXxBQWWQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent [36m302[0m 916.083 ms - 46[0m
+[0mGET / [32m200[0m 362.976 ms - 6879[0m
+[0mGET /favicon.ico [33m404[0m 106.557 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 97.083 ms - 150[0m
+[0mPOST /likes/toggle/?id=64478e558a752dbf7bdc3a63&type=Post [32m200[0m 259.702 ms - 56[0m
+[0mGET / [32m200[0m 346.618 ms - 6515[0m
+[0mGET /favicon.ico [33m404[0m 99.390 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 94.129 ms - 150[0m
+[0mGET /users/profile/64479b440ad157cdf0a802da [32m200[0m 295.351 ms - 2469[0m
+[0mGET /users/profile/css/header.css [33m404[0m 90.234 ms - 167[0m
+[0mGET /users/profile/css/footer.css [33m404[0m 94.624 ms - 167[0m
+[0mGET /users/profile/css/layout.css [33m404[0m 101.466 ms - 167[0m
+[0mGET /users/profile/css/user_profile.css [33m404[0m 111.907 ms - 173[0m
+[0mGET /favicon.ico [33m404[0m 95.227 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 93.737 ms - 150[0m
+[0mGET / [32m200[0m 348.615 ms - 6520[0m
+[0mGET /favicon.ico [33m404[0m 108.002 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 99.016 ms - 150[0m
+[0mGET /users/profile/64479b440ad157cdf0a802da [36m304[0m 303.738 ms - -[0m
+[0mGET /users/profile/css/header.css [33m404[0m 97.697 ms - 167[0m
+[0mGET /users/profile/css/layout.css [33m404[0m 100.783 ms - 167[0m
+[0mGET /users/profile/css/user_profile.css [33m404[0m 95.151 ms - 173[0m
+[0mGET /users/profile/css/footer.css [33m404[0m 100.818 ms - 167[0m
+[0mGET /favicon.ico [33m404[0m 95.777 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 91.385 ms - 150[0m
+[0mGET / [32m200[0m 349.107 ms - 6523[0m
+[0mGET /favicon.ico [33m404[0m 112.173 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 101.123 ms - 150[0m
+[0mGET /users/profile/64479b440ad157cdf0a802da [32m200[0m 304.775 ms - 2472[0m
+[0mGET /users/profile/css/user_profile.css [33m404[0m 94.569 ms - 173[0m
+[0mGET /favicon.ico [33m404[0m 99.615 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 99.797 ms - 150[0m
+[0mGET /users/sign-out [36m302[0m 204.644 ms - 46[0m
+[0mGET / [32m200[0m 249.015 ms - 4941[0m
+[0mGET /favicon.ico [33m404[0m 50.687 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 50.213 ms - 150[0m
+[0mGET /users/sign-in [32m200[0m 52.690 ms - 2171[0m
+[0mGET /favicon.ico [33m404[0m 50.013 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 50.240 ms - 150[0m
+[0mPOST /users/create-session [36m302[0m 222.425 ms - 46[0m
+[0mGET / [32m200[0m 339.150 ms - 7146[0m
+[0mGET /favicon.ico [33m404[0m 101.855 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 99.945 ms - 150[0m
