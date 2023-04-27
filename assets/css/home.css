@@ -1,19 +1,150 @@
 #home-container {
   display: flex;
   height: 100%;
-  padding-bottom: 250px; }
+  padding-bottom: 350px; }
   #home-container #feed-posts {
     width: 70%;
     padding: 10px; }
-  #home-container #posts-list-container {
-    padding-bottom: 100px; }
-  #home-container #like-button {
-    padding-left: 10px;
-    text-decoration: none; }
-  #home-container #like-button2 {
-    padding-left: 10px; }
+    #home-container #feed-posts #new-post-form {
+      margin-top: 20px; }
+      #home-container #feed-posts #new-post-form textarea {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid grey;
+        margin-bottom: 10px;
+        padding: 5px;
+        resize: none; }
+      #home-container #feed-posts #new-post-form input[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px; }
+    #home-container #feed-posts #posts-list-container #post-list li {
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #f7f7f7;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+      #home-container #feed-posts #posts-list-container #post-list li p {
+        font-size: 16px;
+        line-height: 1.4;
+        margin: 0; }
+        #home-container #feed-posts #posts-list-container #post-list li p small {
+          font-size: 12px;
+          color: #777;
+          margin-left: 5px; }
+      #home-container #feed-posts #posts-list-container #post-list li .delete-post-button {
+        color: red;
+        font-size: 14px;
+        text-decoration: none;
+        margin-left: 10px;
+        transition: color 0.2s ease-in-out; }
+        #home-container #feed-posts #posts-list-container #post-list li .delete-post-button:hover {
+          color: #990000; }
+      #home-container #feed-posts #posts-list-container #post-list li .toggle-like-button {
+        color: #777;
+        font-size: 14px;
+        text-decoration: none;
+        margin-left: 10px;
+        transition: color 0.2s ease-in-out; }
+        #home-container #feed-posts #posts-list-container #post-list li .toggle-like-button:hover {
+          color: #444444; }
+      #home-container #feed-posts #posts-list-container #post-list li .post-comments {
+        margin-top: 10px; }
+        #home-container #feed-posts #posts-list-container #post-list li .post-comments form {
+          display: flex; }
+          #home-container #feed-posts #posts-list-container #post-list li .post-comments form input[type="text"] {
+            flex-grow: 1;
+            margin-right: 10px;
+            padding: 5px;
+            border-radius: 3px;
+            border: none;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); }
+          #home-container #feed-posts #posts-list-container #post-list li .post-comments form input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out; }
+            #home-container #feed-posts #posts-list-container #post-list li .post-comments form input[type="submit"]:hover {
+              background-color: #2d682f; }
+        #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list {
+          margin-top: 10px; }
+          #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list #comment {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px; }
+            #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list #comment p {
+              margin-bottom: 5px; }
+            #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list #comment small {
+              margin-top: 5px; }
+            #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list #comment .delete-comment-button {
+              color: #d9534f;
+              text-decoration: none; }
+              #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list #comment .delete-comment-button:hover {
+                text-decoration: underline; }
+            #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list #comment #like-button {
+              color: #337ab7;
+              text-decoration: none;
+              margin-left: 10px; }
+              #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list #comment #like-button i {
+                margin-right: 5px; }
+              #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list #comment #like-button:hover {
+                text-decoration: underline; }
+            #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list #comment #like-button2 {
+              color: #337ab7;
+              margin-left: 10px; }
   #home-container #user-friends {
     width: 30%;
     height: 100%;
     padding: 10px;
     border-left: 1px solid lightgrey; }
+    #home-container #user-friends .friends-list h4 {
+      margin-bottom: 10px; }
+    #home-container #user-friends .friends-list .no-friends {
+      color: #999;
+      text-align: center;
+      margin-top: 10px; }
+    #home-container #user-friends .friends-list .friends-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-top: 10px;
+      text-decoration: none; }
+      #home-container #user-friends .friends-list .friends-item:hover {
+        background-color: #0062cc;
+        color: white; }
+      #home-container #user-friends .friends-list .friends-item .friends-name {
+        font-weight: bold; }
+    #home-container #user-friends .all-users {
+      margin-top: 20px; }
+      #home-container #user-friends .all-users .user-list-header {
+        margin-bottom: 10px; }
+      #home-container #user-friends .all-users .user-list {
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+      #home-container #user-friends .all-users .user-item {
+        margin-bottom: 5px; }
+      #home-container #user-friends .all-users a {
+        display: block;
+        padding: 5px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #333;
+        transition: background-color 0.3s ease; }
+      #home-container #user-friends .all-users a:hover {
+        background-color: #ddd; }

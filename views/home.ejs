@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="/css/home.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="google-site-verification" content="14E2--DYHnYXO4cQyAbqLXuRNSAsMl-8xiPZWifxKbQ" />
+
 <div id="home-container">
     <section id="feed-posts">
         <h4>Posts</h4>
@@ -12,7 +13,7 @@
             <% } %>
 
                 <div id="posts-list-container">
-                    <ul>
+                    <ul id="post-list">
                         <% for(post of posts){ %>
 
                             <%- include('_post') -%>
@@ -24,53 +25,53 @@
 
 
     <section id="user-friends">
-        <div>
-            <% if(user) { %>
-                <div class="friends-list">
-                    <h4>My Friends</h4>
-                    <% if(locals.user.friends.length==0) {%>
-                        <div class="no-friends">No friends found!</div>
-                        <% }else{ %>
-                            <% for(friends of user.friends){ %>
-                                <% if(friends.from_user.id==locals.user.id) {%>
-                                    <div>
-                                        <a class="friends-item" href="/users/profile/<%=friends.to_user._id%>">
-                                            <div class="friends-name">
-                                                <%= friends.to_user.name %>
-                                            </div>
-                                            <br>
-                                        </a>
+        <% if(user) { %>
+            <div class="friends-list">
+                <h4>My Friends</h4>
+                <% if(locals.user.friends.length==0) {%>
+                    <div class="no-friends">No friends found!</div>
+                <% }else{ %>
+                    <% for(friends of user.friends){ %>
+                        <% if(friends.from_user.id==locals.user.id) {%>
+                            <div>
+                                <a class="friends-item" href="/users/profile/<%=friends.to_user._id%>">
+                                    <div class="friends-name">
+                                        <%= friends.to_user.name %>
                                     </div>
-                                    <%}%>
+                                    <br>
+                                </a>
+                            </div>
+                            <%}%>
 
-                                        <% if(friends.to_user.id==locals.user.id) {%>
-                                            <div>
-                                                <a class="friends-item"
-                                                    href="/users/profile/<%=friends.from_user._id%>">
-                                                    <div class="friends-name">
-                                                        <%= friends.from_user.name %>
-                                                    </div>
-                                                    <br>
-                                                </a>
-                                            </div>
-                                            <% } %>
-                                                <% } %>
-                                                    <% } %>
-
-                </div>
+                        <% if(friends.to_user.id==locals.user.id) {%>
+                            <div>
+                                <a class="friends-item" href="/users/profile/<%=friends.from_user._id%>">
+                                    <div class="friends-name">
+                                        <%= friends.from_user.name %>
+                                    </div>
+                                    <br>
+                                </a>
+                            </div>
+                        <% } %>
+                    <% } %>
                 <% } %>
 
-                    <div>
-                        <h4>All Users</h4>
-                        <% for(u of all_users){%>
-                            <p>
-                                <a href="/users/profile/<%= u.id %>">
-                                    <%= u.name %>
-                                </a>
-                            </p>
-                            <% } %>
-                    </div>
-                    <%- include('_chat_box') -%>
+            </div>
+            <% } %>
+
+        
+        <div class="all-users">
+            <h4>All Users</h4>
+            <% for(u of all_users){%>
+                <p>
+                    <a href="/users/profile/<%= u.id %>">
+                        <%= u.name %>
+                    </a>
+                </p>
+                <% } %>
+        </div>
+
+        <%- include('_chat_box') -%>
     </section>
 </div>
 
@@ -93,3 +94,6 @@
         new ChatEngine('user-chat-box', '<%= locals.user.email%>')
     </script>
     <% } %>
+
+
+        ---------------------------------------------------
