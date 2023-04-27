@@ -64,6 +64,7 @@ $primary-color-hover: darken($primary-color, 10%);
       }
       
     #posts-list-container {
+      padding-bottom: 40px;
         #post-list {
           li {
             margin: 10px 0;
@@ -82,7 +83,6 @@ $primary-color-hover: darken($primary-color, 10%);
                 color: #777;
                 margin-left: 5px;
               }
-            }
       
             .delete-post-button {
               color: red;
@@ -107,6 +107,7 @@ $primary-color-hover: darken($primary-color, 10%);
                 color: darken(#777, 20%);
               }
             }
+          }
       
             .post-comments {
               margin-top: 10px;
@@ -141,7 +142,7 @@ $primary-color-hover: darken($primary-color, 10%);
               .post-comments-list {
                 margin-top: 10px;
                 
-                #comment{
+                .comment{
                     background-color: #fff;
                     border: 1px solid #ccc;
                     border-radius: 5px;

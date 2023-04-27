@@ -20,8 +20,7 @@ class ToggleLike{
                 let likesCount = parseInt($(self).attr('data-likes'));
                 console.log(likesCount);
                 if (data.data.deleted == true){
-                    likesCount -= 1;
-                    
+                    if(likesCount>0) {likesCount -= 1;}
                 }
                 else{
                     likesCount += 1;
