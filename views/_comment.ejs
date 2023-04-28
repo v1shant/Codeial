@@ -1,10 +1,5 @@
 <li class="comment" id="comment-<%= comment._id %>">
     <p>
-        <% if (locals.user && locals.user.id == comment.user.id){ %>
-        <small>
-            <a class="delete-comment-button" href="/comments/destroy/<%= comment.id %>">X</a>
-        </small>
-        <% } %>
         <%= comment.content %>
         <small>
             <% if (locals.user){ %>
@@ -17,6 +12,11 @@
                 </small>
             <% } %>
         </small>
+        <% if (locals.user && locals.user.id == comment.user.id){ %>
+            <small>
+                <a class="delete-comment-button" href="/comments/destroy/<%= comment.id %>"><i class="material-icons">&#xe872;</i></a>
+            </small>
+        <% } %>
         <br>
         <small>
             - <%= comment.user.name %>

@@ -43,16 +43,16 @@
                     <p>
                         
                         <small>
-                            <a class="delete-post-button"  href="/posts/destroy/${post._id}">X</a>
+                            <a class="delete-post-button"  href="/posts/destroy/${post._id}"><i class="material-icons">&#xe872;</i></a>
                         </small>
                        
                         ${post.content}
                         <small>
-                            <a id="like-button" class="toggle-like-button" data-likes="0" href="/likes/toggle/?id=${post._id}&type=Post">0 <i class="fa fa-thumbs-up">like</i></a>
+                            <a id="like-button" class="toggle-like-button" data-likes="0" href="/likes/toggle/?id=${post._id}&type=Post"><i class="fa fa-thumbs-up">0 Likes</i></a>
                         </small>
                         <br>
                         <small>
-                        ${post.user.name}
+                        - ${post.user.name}
                         </small>
                     </p>
                     <div class="post-comments">

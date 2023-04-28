@@ -13,22 +13,30 @@
         border-bottom: 1px solid grey;
         margin-bottom: 10px;
         padding: 5px;
-        resize: none; }
+        resize: none;
+        background-color: #f9f9f9;
+        color: #333;
+        font-size: 18px; }
       #home-container #feed-posts #new-post-form input[type="submit"] {
-        background-color: #4CAF50;
+        background-color: #FF5722;
         border: none;
         color: white;
-        padding: 8px 16px;
+        padding: 10px 20px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
+        font-size: 18px;
+        margin: 10px 0;
         cursor: pointer;
-        border-radius: 5px; }
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out; }
+      #home-container #feed-posts #new-post-form input[type="submit"]:hover {
+        background-color: #f44336;
+        transform: scale(1.05); }
     #home-container #feed-posts #posts-list-container {
       padding-bottom: 40px; }
       #home-container #feed-posts #posts-list-container #post-list li {
+        position: relative;
         margin: 10px 0;
         padding: 10px;
         background-color: #f7f7f7;
@@ -43,6 +51,8 @@
             color: #777;
             margin-left: 5px; }
           #home-container #feed-posts #posts-list-container #post-list li p .delete-post-button {
+            position: absolute;
+            right: 10px;
             color: red;
             font-size: 14px;
             text-decoration: none;
@@ -51,13 +61,13 @@
             #home-container #feed-posts #posts-list-container #post-list li p .delete-post-button:hover {
               color: #990000; }
           #home-container #feed-posts #posts-list-container #post-list li p .toggle-like-button {
-            color: #777;
+            color: #337ab7;
             font-size: 14px;
             text-decoration: none;
             margin-left: 10px;
             transition: color 0.2s ease-in-out; }
             #home-container #feed-posts #posts-list-container #post-list li p .toggle-like-button:hover {
-              color: #444444; }
+              color: #1d4567; }
         #home-container #feed-posts #posts-list-container #post-list li .post-comments {
           margin-top: 10px; }
           #home-container #feed-posts #posts-list-container #post-list li .post-comments form {
@@ -84,14 +94,17 @@
             #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list .comment {
               background-color: #fff;
               border: 1px solid #ccc;
-              border-radius: 5px; }
+              border-radius: 5px;
+              position: relative; }
               #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list .comment p {
                 margin-bottom: 5px; }
               #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list .comment small {
                 margin-top: 5px; }
               #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list .comment .delete-comment-button {
+                position: absolute;
                 color: #d9534f;
-                text-decoration: none; }
+                text-decoration: none;
+                right: 10px; }
                 #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list .comment .delete-comment-button:hover {
                   text-decoration: underline; }
               #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list .comment #like-button {
@@ -101,10 +114,12 @@
                 #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list .comment #like-button i {
                   margin-right: 5px; }
                 #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list .comment #like-button:hover {
-                  text-decoration: underline; }
+                  color: #1d4567; }
               #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list .comment #like-button2 {
                 color: #337ab7;
                 margin-left: 10px; }
+                #home-container #feed-posts #posts-list-container #post-list li .post-comments .post-comments-list .comment #like-button2:hover {
+                  color: #1d4567; }
   #home-container #user-friends {
     width: 30%;
     height: 100%;

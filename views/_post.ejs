@@ -1,10 +1,5 @@
 <li id="post-<%= post._id %>">
     <p>
-        <% if (locals.user && locals.user.id == post.user.id){ %>
-        <small>
-            <a class="delete-post-button" href="/posts/destroy/<%= post.id %>">X</a>
-        </small>
-        <% } %>
         <%= post.content %>
         <small>
             <% if (locals.user){ %>
@@ -15,8 +10,13 @@
                 <small id="like-button2">
                     <%=post.likes.length %> Likes
                 </small>
-            <% } %>
+                <% } %>
         </small>
+        <% if (locals.user && locals.user.id == post.user.id){ %>
+        <small>
+            <a class="delete-post-button" href="/posts/destroy/<%= post.id %>"><i class="material-icons">&#xe872;</i></a>
+        </small>
+        <% } %>
         <br>
         <small>
             - <%= post.user.name %>

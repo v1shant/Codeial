@@ -37,36 +37,46 @@ $primary-color-hover: darken($primary-color, 10%);
     padding: 10px;
     
     #new-post-form {
-        margin-top: 20px;
-      
-        textarea {
-          width: 100%;
-          border: none;
-          border-bottom: 1px solid grey;
-          margin-bottom: 10px;
-          padding: 5px;
-          resize: none;
-        }
-      
-        input[type="submit"] {
-          background-color: #4CAF50;
-          border: none;
-          color: white;
-          padding: 8px 16px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 16px;
-          margin: 4px 2px;
-          cursor: pointer;
-          border-radius: 5px;
-        }
+      margin-top: 20px;
+    
+      textarea {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid grey;
+        margin-bottom: 10px;
+        padding: 5px;
+        resize: none;
+        background-color: #f9f9f9;
+        color: #333;
+        font-size: 18px;
       }
+    
+      input[type="submit"] {
+        background-color: #FF5722;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 10px 0;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+      }
+    
+      input[type="submit"]:hover {
+        background-color: #f44336;
+        transform: scale(1.05);
+      }
+    }
       
     #posts-list-container {
       padding-bottom: 40px;
         #post-list {
           li {
+            position: relative;
             margin: 10px 0;
             padding: 10px;
             background-color: #f7f7f7;
@@ -85,6 +95,8 @@ $primary-color-hover: darken($primary-color, 10%);
               }
       
             .delete-post-button {
+              position: absolute;
+              right: 10px;
               color: red;
               font-size: 14px;
               text-decoration: none;
@@ -97,14 +109,14 @@ $primary-color-hover: darken($primary-color, 10%);
             }
       
             .toggle-like-button {
-              color: #777;
+              color: #337ab7;
               font-size: 14px;
               text-decoration: none;
               margin-left: 10px;
               transition: color 0.2s ease-in-out;
       
               &:hover {
-                color: darken(#777, 20%);
+                color: darken(#337ab7, 20%);
               }
             }
           }
@@ -146,6 +158,7 @@ $primary-color-hover: darken($primary-color, 10%);
                     background-color: #fff;
                     border: 1px solid #ccc;
                     border-radius: 5px;
+                    position: relative;
                     // margin-bottom: 10px;
                     // padding: 10px;
                   
@@ -159,8 +172,10 @@ $primary-color-hover: darken($primary-color, 10%);
                     }
                   
                     .delete-comment-button {
+                      position: absolute;
                       color: #d9534f;
                       text-decoration: none;
+                      right: 10px;
                   
                       &:hover {
                         text-decoration: underline;
@@ -177,13 +192,16 @@ $primary-color-hover: darken($primary-color, 10%);
                       }
                   
                       &:hover {
-                        text-decoration: underline;
+                        color: darken(#337ab7, 20%);
                       }
                     }
                   
                     #like-button2 {
                       color: #337ab7;
                       margin-left: 10px;
+                      &:hover {
+                        color: darken(#337ab7, 20%);
+                      }
                     }
                   }
                   

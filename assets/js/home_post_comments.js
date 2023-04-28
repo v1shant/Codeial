@@ -62,16 +62,16 @@ class PostComments {
                         <p>
                             
                             <small>
-                                <a class="delete-comment-button" href="/comments/destroy/${comment._id}">X</a>
+                                <a class="delete-comment-button" href="/comments/destroy/${comment._id}"><i class="material-icons">&#xe872;</i></a>
                             </small>
                             
                             ${comment.content}
                             <small>
-                                <a id="like-button" class="toggle-like-button" data-likes="0" href="/likes/toggle/?id=${comment._id}&type=Post">0 <i class="fa fa-thumbs-up">like</i></a>
+                                <a id="like-button" class="toggle-like-button" data-likes="0" href="/likes/toggle/?id=${comment._id}&type=Post"><i class="fa fa-thumbs-up">0 Likes</i></a>
                             </small>
                             <br>
                             <small>
-                                ${comment.user.name}
+                                - ${comment.user.name}
                             </small>
                         </p>    
 
