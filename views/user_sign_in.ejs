@@ -20,17 +20,17 @@
 </p> -->
 
 <form action="/users/create-session" method="POST" class="login-form">
-    <span class="login-signup-header">Sign In</span>
+    <span class="login-signup-header">Sign In with Codeial</span>
     <% if(false){ %>
         <div class="alert error-dailog">Error</div>
         <% } %>
             <div class="field">
-                <input name="email" type="email" placeholder="Enter Email" required />
+                <input name="email" type="email" placeholder="Email address" required />
             </div>
             <div class="field">
                 <input type="password" name="password" placeholder="Password" required />
             </div>
-            <div style="align-self: flex-end;margin-top: 1rem;"><a href="/users/reset-password">Forgot Password ?</a>
+            <div style="align-self: flex-end;margin-top: 1rem;"><a href="/users/reset-password">Forgot Password?</a>
             </div>
             <div class="field">
                 <button type="submit">Log In</button>
