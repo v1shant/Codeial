@@ -4,6 +4,8 @@ const commentsMailer = require('../mailers/comments_mailer');
 const queue = require('../config/kue');
 const userEmailWorker = require('../worker/user_email_worker');
 const crypto = require('crypto');
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
 
 // module.exports.profile = (req, res) => {
 //     User.findById(req.params.id, function (err, user) {
@@ -15,33 +17,33 @@ const crypto = require('crypto');
 // };
 
 module.exports.profile = async function (req, res) {
-  try {
-   
-    let user = await User.findById({ _id: req.params.id });
+    try {
 
-    let friendship1,friendship2
+        let user = await User.findById({ _id: req.params.id });
 
-    friendship1 = await Friendships.findOne({
-      from_user: req.user,
-      to_user: req.params.id,
-    });
+        let friendship1, friendship2;
 
-    friendship2 = await Friendships.findOne({
-      from_user: req.params.id,
-      to_user: req.user,
-    });
+        friendship1 = await Friendships.findOne({
+            from_user: req.user,
+            to_user: req.params.id,
+        });
 
-    
-    let populated_user = await User.findById(req.user).populate('friends');
-    return res.render("user_profile", {
-      title: "Codeial | Profile",
-      profile_user: user,
-      populated_user: populated_user
-    });
-  } catch (error) {
-    console.log("Error", error);
-    return;
-  }
+        friendship2 = await Friendships.findOne({
+            from_user: req.params.id,
+            to_user: req.user,
+        });
+
+
+        let populated_user = await User.findById(req.user).populate('friends');
+        return res.render("user_profile", {
+            title: "Codeial | Profile",
+            profile_user: user,
+            populated_user: populated_user
+        });
+    } catch (error) {
+        console.log("Error", error);
+        return;
+    }
 };
 
 module.exports.update = function (req, res) {
@@ -78,24 +80,63 @@ module.exports.signIn = (req, res) => {
 };
 
 //get the sign up data
+// module.exports.create = (req, res) => {
+//     if (req.body.password != req.body.confirm_password) {
+//         req.flash('error', 'Passwords do not match');
+//         return res.redirect('back');
+//     }
+//     User.findOne({ email: req.body.email }, (err, user) => {
+//         if (err) { req.flash('error', err); return; }
+//         if (!user) {
+//             User.create(req.body, (err, user) => {
+//                 if (err) { req.flash('error', err); return; }
+
+//                 return res.redirect('/users/sign-in');
+//             });
+//         }
+//         else {
+//             req.flash('success', 'You have signed up, login to continue!');
+//             res.redirect('back');
+//         }
+//     });
+// };
+
+//2
 module.exports.create = (req, res) => {
     if (req.body.password != req.body.confirm_password) {
         req.flash('error', 'Passwords do not match');
         return res.redirect('back');
     }
-    User.findOne({ email: req.body.email }, (err, user) => {
-        if (err) { req.flash('error', err); return; }
-        if (!user) {
-            User.create(req.body, (err, user) => {
-                if (err) { req.flash('error', err); return; }
 
-                return res.redirect('/users/sign-in');
-            });
+    // Hash the password before creating the user
+    bcrypt.hash(req.body.password, saltRounds, (err, hashedPassword) => {
+        if (err) {
+            req.flash('error', err);
+            return res.redirect('back');
         }
-        else {
-            req.flash('success', 'You have signed up, login to continue!');
-            res.redirect('back');
-        }
+
+        // Replace the plain text password with the hashed password
+        req.body.password = hashedPassword;
+
+        User.findOne({ email: req.body.email }, (err, user) => {
+            if (err) {
+                req.flash('error', err);
+                return res.redirect('back');
+            }
+            if (!user) {
+                User.create(req.body, (err, user) => {
+                    if (err) {
+                        req.flash('error', err);
+                        return res.redirect('back');
+                    }
+
+                    return res.redirect('/users/sign-in');
+                });
+            } else {
+                req.flash('success', 'You have signed up, login to continue!');
+                res.redirect('back');
+            }
+        });
     });
 };
 
@@ -104,7 +145,7 @@ module.exports.createSession = (req, res) => {
     req.flash('success', 'Logged in Successfully');
     return res.redirect('/');
 };
- 
+
 module.exports.destroySession = function (req, res) {
     req.logout(function (err) {
         if (err) { return next(err); }
